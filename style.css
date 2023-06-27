@@ -1,0 +1,70 @@
+* {
+    margin: 2px;
+    padding: 2px;
+    font-family: 'Poppins';
+    color: white;
+}
+body{
+    text-align: center ;
+    background-image:url('bg.jpeg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+h1{
+    padding: 50px;
+    margin: auto;
+    font-size: 45px;
+
+}
+.Container{
+    padding: 50px;
+    margin: auto;
+    align-items: center;
+    font-size: 20px;
+    width: 450px;
+    height: max-content;
+background: rgba( 77, 73, 73, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 6.5px );
+-webkit-backdrop-filter: blur( 6.5px );
+border-radius: 40px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+img{
+    width: 500px;
+    margin: -60px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+
+}
+span{
+    text-decoration: underline;
+    color: blue;
+}
+.Card .p-card{
+    font-size:20px ;
+    margin: 50px;
+    color: white;
+}
+.p-one{
+    margin-top: 50px;
+  color: rgba(219, 219, 215, 100%);
+}
+.p-two{
+  color: rgba(219, 219, 215, 100%);
+}
+.logo-pian{
+    width: 100px;
+}
+/* Untuk Android tablet */
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  /* Atur tampilan khusus untuk Android tablet di sini */
+}
+
+/* Untuk laptop */
+@media only screen and (min-width: 1025px) {
+  /* Atur tampilan khusus untuk laptop di sini */
+}
+
